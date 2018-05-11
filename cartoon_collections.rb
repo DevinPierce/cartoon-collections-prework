@@ -7,6 +7,7 @@ end
 def summon_captain_planet(arr)
   new_arr = arr.map do |e|
     e[0].upcase!
+    e << '!'
   end
 end
 
