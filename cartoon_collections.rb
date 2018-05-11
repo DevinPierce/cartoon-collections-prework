@@ -6,7 +6,8 @@ end
 
 def summon_captain_planet(arr)
   new_arr = arr.map do |e|
-    e.split('')[0].upcase!.join('')
+    e.split('')
+    
     e << '!'
   end
 end
