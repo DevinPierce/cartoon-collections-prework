@@ -24,4 +24,5 @@ def find_the_cheese(arr)
       return cheese
     end
   end
+  nil
 end
