@@ -9,6 +9,7 @@ def summon_captain_planet(arr)
     e[0].upcase!
     e << '!'
   end
+  new_arr
 end
 
 def long_planeteer_calls# code an argument here
