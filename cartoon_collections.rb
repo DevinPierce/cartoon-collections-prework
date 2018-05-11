@@ -6,10 +6,9 @@ end
 
 def summon_captain_planet(arr)
   new_arr = arr.map do |e|
-    e[0].upcase!
+    e.split('')[0].upcase!.join('')
     e << '!'
   end
-  new_arr
 end
 
 def long_planeteer_calls# code an argument here
